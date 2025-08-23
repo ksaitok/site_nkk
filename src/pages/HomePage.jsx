@@ -11,17 +11,17 @@ const HomePage = () => {
         <p>We offer a wide range of demolition services to meet your needs.</p>
         <div className="services-grid">
           <div className="service-card">
-            <img src="https://via.placeholder.com/400x250" alt="Residential Demolition" />
+            <img src="https://placehold.co/400x250" alt="Residential Demolition" />
             <h3>Residential Demolition</h3>
             <p>Complete and partial demolition of houses and residential buildings.</p>
           </div>
           <div className="service-card">
-            <img src="https://via.placeholder.com/400x250" alt="Commercial Demolition" />
+            <img src="https://placehold.co/400x250" alt="Commercial Demolition" />
             <h3>Commercial Demolition</h3>
             <p>Demolition of commercial buildings, offices, and retail spaces.</p>
           </div>
           <div className="service-card">
-            <img src="https://via.placeholder.com/400x250" alt="Industrial Demolition" />
+            <img src="https://placehold.co/400x250" alt="Industrial Demolition" />
             <h3>Industrial Demolition</h3>
             <p>Demolition of factories, warehouses, and industrial facilities.</p>
           </div>
