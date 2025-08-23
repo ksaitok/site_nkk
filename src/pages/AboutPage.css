@@ -36,3 +36,10 @@
 .about-section li {
   margin-bottom: 0.5rem;
 }
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}

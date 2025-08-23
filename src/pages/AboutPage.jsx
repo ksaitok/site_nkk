@@ -1,4 +1,3 @@
-
 import React from 'react';
 import './AboutPage.css';
 import { useTranslation } from 'react-i18next';
@@ -15,6 +14,7 @@ const AboutPage = () => {
       <div className="about-content">
         <div className="about-section">
           <h2>{t('our_story_title')}</h2>
+          <img src="https://via.placeholder.com/800x300" alt="Our Team" className="about-image" />
           <p>{t('our_story_content')}</p>
         </div>
         <div className="about-section">
