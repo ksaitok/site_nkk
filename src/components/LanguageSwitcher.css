@@ -1,18 +1,47 @@
 .language-switcher {
-  display: flex;
-  gap: 0.5rem;
+  position: relative;
+  display: inline-block;
 }
 
-.language-switcher button {
+.dropdown-toggle {
   background-color: transparent;
   border: 1px solid white;
   color: white;
   padding: 0.5rem;
   cursor: pointer;
   border-radius: 5px;
+  min-width: 100px;
 }
 
-.language-switcher button:hover {
+.dropdown-toggle:hover {
+  background-color: white;
+  color: #2c3e50;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #2c3e50;
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  z-index: 1;
+}
+
+.dropdown-menu button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  cursor: pointer;
+  text-align: left;
+}
+
+.dropdown-menu button:hover {
   background-color: white;
   color: #2c3e50;
 }
